@@ -26,6 +26,16 @@
 
 • Patient intake data revealed spikes in 2016 and 2019, which could correspond to external events or increased awareness — worthy of further investigation.
 
+🎯Goals :
+
+• To explore and visualize patient-level mental health data with a focus on obsession and compulsion patterns.
+
+• To build a clean and interactive dashboard in PowerBI to quickly extract insights.
+
+• To practice end-to-end data handling: from raw data transformation using SQL, to building a visual story using Excel and Power BI.
+
+• To identify key demographic and behavioral trends that can help support data-driven decision making in mental health care.
+
 💼Business Impact : 
 
 • Enables mental health organizations to prioritize resources for the most affected categories (e.g., harm-related obsessions).
