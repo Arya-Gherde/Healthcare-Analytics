@@ -1,1 +1,65 @@
+-- 1. COUNT AND PERCENTAGE OF F vs M AND RESP. OBSESSION SCORES
+WITH data as (
+SELECT
+Gender,
+count(`Patient ID`) as patient_count,
+round(AVG(`Y-BOCS Score (Obsessions)`),2) as avg_obs_score
+FROM healthcare_data.ocd_patient_dataset
+GROUP BY 1 
+ORDER BY 2)
 
+SELECT
+	sum(case when Gender = 'Female' THEN patient_count ELSE 0 END ) as count_female,
+	sum(case when Gender = 'Male' THEN patient_count ELSE 0 END ) as count_male, 
+	round(sum(case when Gender = 'Female' THEN patient_count ELSE 0 END ) /
+	(sum(case when Gender = 'Female' THEN patient_count ELSE 0 END ) + sum(case when Gender = 'Male' THEN patient_count ELSE 0 END )) *100,2)
+    AS Percentage_Female,
+    round(sum(case when Gender = 'Male' THEN patient_count ELSE 0 END ) /
+	(sum(case when Gender = 'Female' THEN patient_count ELSE 0 END ) + sum(case when Gender = 'Male' THEN patient_count ELSE 0 END )) *100,2)
+     AS Percentage_Male
+FROM data
+;
+
+-- 2. COUNT & AVG. OBSESSION SCORE BY ETHINICITIES
+
+SELECT 
+Ethnicity, 
+count(`Patient ID`) as Patient_Count , 
+AVG (`Y-BOCS Score (Obsessions)`) as Obsession_Score
+FROM healthcare_data.ocd_patient_dataset
+GROUP BY 1
+ORDER BY 2 
+;
+
+-- 3.NUMBER OF PEOPLE DIAGNOSED WITH MoM
+
+-- alter table healthcare_data.ocd_patient_dataset
+-- modify `OCD Diagnosis Date`  date ;
+SELECT 
+date_format(`OCD Diagnosis Date` , '%Y-%m-%01 00:00:00') as month ,
+-- `OCD Diagnosis Date`,
+count('Patient ID') patient_count
+FROM healthcare_data.ocd_patient_dataset
+GROUP BY 1 
+Order By 1
+;
+--  4. OBSESSION TYPE (count) 
+
+SELECT 
+`Obsession Type` , COUNT(`Patient ID`) as patient_count,
+round(AVG (`Y-BOCS Score (Obsessions)`),2) as Obsession_Score
+FROM healthcare_data.ocd_patient_dataset
+GROUP BY 1 
+ORDER BY patient_count DESC
+;
+
+-- 5. COMPULSION TYPE (count) 
+
+SELECT 
+`Compulsion Type` , COUNT('Patient ID') as patient_count,
+round(avg(`Y-BOCS Score (Obsessions)`),2) as Obsession_Score 
+FROM healthcare_data.ocd_patient_dataset
+GROUP BY 1 
+ORDER BY 2
+;
+ 
