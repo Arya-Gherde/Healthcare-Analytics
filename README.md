@@ -39,7 +39,7 @@
 • Provides a clear visual summary that can be shared with stakeholders, improving communication and strategy alignment.
 
 🖼️Dashboard Preview : 
-![Dashboard Preview](./survey_dashboard.png](https://github.com/Arya-Gherde/Healthcare-Analytics/blob/main/Dashboard.png))
+![Dashboard Preview]((https://github.com/Arya-Gherde/Healthcare-Analytics/blob/main/Dashboard.png ))
 
 
 
