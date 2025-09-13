@@ -1,8 +1,8 @@
-📊 Healthcare-Analytics-Dashboard
+# 📊 Healthcare-Analytics-Dashboard
 
-📌Description : An interactive dashboard that analyzes mental health data from 1500 patients. It visualizes patterns in obsession and compulsion types, gender-based metrics, ethnicity distribution .The goal is to provide a data-driven view into patient trends to aid research, healthcare planning, or mental health awareness.
+📌 Description : An interactive dashboard that analyzes mental health data from 1500 patients. It visualizes patterns in obsession and compulsion types, gender-based metrics, ethnicity distribution .The goal is to provide a data-driven view into patient trends to aid research, healthcare planning, or mental health awareness.
 
-⚙️Tech Stack : 
+## ⚙️ Tech Stack : 
 
 1. SQL - Data filtering, grouping, and aggregation using SELECT, GROUP BY and Case Statements .
          Extracted and cleaned raw data before analysis.
@@ -13,8 +13,8 @@
 
 3. MS Excel - Built a fully interactive dashboard with charts and KPIs.
               Focused on data storytelling — turning raw patient data into meaningful visual insights.
-
-⭐Key Insights :
+--
+## ⭐ Key Insights :
 
 • Harm-related obsessions were the most prevalent among patients (22.2%), suggesting the need for targeted mental health interventions in that area.
 
@@ -26,7 +26,8 @@
 
 • Patient intake data revealed spikes in 2016 and 2019, which could correspond to external events or increased awareness — worthy of further investigation.
 
-🎯Goals :
+
+## 🎯 Goals :
 
 • To explore and visualize patient-level mental health data with a focus on obsession and compulsion patterns.
 
@@ -36,7 +37,7 @@
 
 • To identify key demographic and behavioral trends that can help support data-driven decision making in mental health care.
 
-💼Business Impact : 
+## 💼 Business Impact : 
 
 • Enables mental health organizations to prioritize resources for the most affected categories (e.g., harm-related obsessions).
 
@@ -48,8 +49,8 @@
 
 • Provides a clear visual summary that can be shared with stakeholders, improving communication and strategy alignment.
 
-🖼️Dashboard Preview : 
-(.[Survey Dashboard.png](https://github.com/Arya-Gherde/Healthcare-Analytics/blob/main/Dashboard.png))
+## 🖼️ Dashboard Preview : 
+👉 Click here to view the Dashboard (.[Survey Dashboard.png](https://github.com/Arya-Gherde/Healthcare-Analytics/blob/main/Dashboard.png))
 
 
 
