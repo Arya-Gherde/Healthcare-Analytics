@@ -12,8 +12,9 @@
               Applied custom themes and filters for a clean, user-friendly layout.
 
 3. MS Excel - Built a fully interactive dashboard with charts and KPIs.
-              Focused on data storytelling — turning raw patient data into meaningful visual insights.
---
+              Focused on data storytelling, turning raw patient data into meaningful visual insights.
+
+
 ## ⭐ Key Insights :
 
 • Harm-related obsessions were the most prevalent among patients (22.2%), suggesting the need for targeted mental health interventions in that area.
@@ -24,7 +25,7 @@
 
 • Caucasian patients formed the largest ethnic group, but strong representation was also noted among African and Asian populations, highlighting the importance of culturally inclusive healthcare approaches.
 
-• Patient intake data revealed spikes in 2016 and 2019, which could correspond to external events or increased awareness — worthy of further investigation.
+• Patient intake data revealed spikes in 2016 and 2019, which could correspond to external events or increased awareness, worthy of further investigation.
 
 
 ## 🎯 Goals :
